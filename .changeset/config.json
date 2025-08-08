@@ -16,3 +16,136 @@
     "@vercel-internals/*"
   ]
 }
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FOX MAX - متجر الهواتف</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #1a1a1a;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+    }
+    header {
+        background-color: #111;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+    }
+    header img {
+        height: 40px;
+        margin-left: 10px;
+    }
+    header h1 {
+        color: orange;
+        font-size: 1.5rem;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+        padding: 15px;
+    }
+    .product {
+        background-color: #222;
+        border-radius: 10px;
+        overflow: hidden;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+        transition: transform 0.2s;
+    }
+    .product:hover {
+        transform: scale(1.05);
+    }
+    .product img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .product h3 {
+        margin: 10px 0;
+        color: orange;
+    }
+    .product p {
+        font-size: 14px;
+        padding: 0 10px;
+        color: #ccc;
+    }
+    .add-to-cart {
+        background-color: orange;
+        color: #111;
+        padding: 8px 12px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        font-weight: bold;
+    }
+    .add-to-cart:hover {
+        background-color: #ff9800;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <img src="https://i.ibb.co/7nqgW9J/fox-icon.png" alt="FOX MAX Logo">
+    <h1>FOX MAX</h1>
+</header>
+
+<section class="products">
+    <!-- الهواتف -->
+    <div class="product">
+        <img src="https://i.ibb.co/HDJTXZf/phone1.jpg" alt="هاتف ذكي">
+        <h3>هاتف ذكي</h3>
+        <p>شاشة 6.5 بوصة - ذاكرة 128GB</p>
+        <button class="add-to-cart">أضف للسلة</button>
+    </div>
+
+    <div class="product">
+        <img src="https://i.ibb.co/j6KQFcJ/phone2.jpg" alt="هاتف جديد">
+        <h3>هاتف جديد</h3>
+        <p>كاميرا 64MP - بطارية تدوم طويلاً</p>
+        <button class="add-to-cart">أضف للسلة</button>
+    </div>
+
+    <!-- الإكسسوارات -->
+    <div class="product">
+        <img src="https://i.ibb.co/pnVj1wp/case.jpg" alt="كفر حماية">
+        <h3>كفر حماية</h3>
+        <p>تصميم أنيق - مقاوم للصدمات</p>
+        <button class="add-to-cart">أضف للسلة</button>
+    </div>
+
+    <div class="product">
+        <img src="https://i.ibb.co/MpJ7bkv/headphones.jpg" alt="سماعات">
+        <h3>سماعات بلوتوث</h3>
+        <p>صوت نقي - بطارية تدوم 20 ساعة</p>
+        <button class="add-to-cart">أضف للسلة</button>
+    </div>
+
+    <!-- مستلزمات الصيانة -->
+    <div class="product">
+        <img src="https://i.ibb.co/6FDhWc4/screen-protector.jpg" alt="حامي شاشة">
+        <h3>حامي شاشة</h3>
+        <p>زجاج مقوى - مقاوم للخدوش</p>
+        <button class="add-to-cart">أضف للسلة</button>
+    </div>
+
+    <div class="product">
+        <img src="https://i.ibb.co/0fM8L8V/battery.jpg" alt="بطارية">
+        <h3>بطارية احتياطية</h3>
+        <p>سعة 5000mAh - شحن سريع</p>
+        <button class="add-to-cart">أضف للسلة</button>
+    </div>
+</section>
+
+</body>
+</html>
+
+
