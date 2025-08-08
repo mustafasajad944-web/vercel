@@ -1,5 +1,14 @@
 # @vercel/hono
 
+## 0.0.10
+
+### Patch Changes
+
+- Add `.mts` support to node builder ([#13687](https://github.com/vercel/vercel/pull/13687))
+
+- Updated dependencies [[`5eb982e20d82ca22f7e79ea60c288b876fa661e9`](https://github.com/vercel/vercel/commit/5eb982e20d82ca22f7e79ea60c288b876fa661e9)]:
+  - @vercel/node@5.3.12
+
 ## 0.0.9
 
 ### Patch Changes
